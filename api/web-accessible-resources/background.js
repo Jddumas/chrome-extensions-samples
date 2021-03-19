@@ -12,3 +12,5 @@ function showReadme(info, tab) {
   let url = chrome.runtime.getURL("readme.html");
   chrome.tabs.create({ url });
 }
+
+//test
